@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-interface FullScreenMessageProps {
+type FullScreenMessageProps = {
   type: 'loading' | 'error';
 }
 

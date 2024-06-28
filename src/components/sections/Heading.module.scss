@@ -1,0 +1,15 @@
+.container {
+  background-color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+
+  .tx-date {
+    // font-size: 32px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tx-day {
+    font-size: 1rem;
+  }
+}
