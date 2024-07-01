@@ -4,7 +4,7 @@ import styles from './Section.module.scss';
 const cx = classNames.bind(styles);
 
 type SectionProps = {
-  title?: string;
+  title?: React.ReactNode;
   className?: string;
   children: React.ReactNode;
 };

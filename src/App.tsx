@@ -3,6 +3,7 @@ import styles from './App.module.scss';
 import { useEffect, useState } from 'react';
 import { FullScreenMessage } from '@/components/shared';
 import {
+  Calendar,
   Heading,
   ImageGallery,
   Intro,
@@ -77,6 +78,7 @@ function App() {
       />
       <Invitation message={invitation} />
       <ImageGallery images={galleryImages} />
+      <Calendar date={date} />
       {JSON.stringify(wedding)}
     </div>
   );
