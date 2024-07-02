@@ -8,6 +8,7 @@ import {
   ImageGallery,
   Intro,
   Invitation,
+  Map,
   Video,
 } from '@/components/sections';
 
@@ -79,7 +80,8 @@ function App() {
       <Invitation message={invitation} />
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
-      {JSON.stringify(wedding)}
+      <Map location={location} />
+      {/* {JSON.stringify(wedding)} */}
     </div>
   );
 }
