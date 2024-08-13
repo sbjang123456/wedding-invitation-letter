@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { FullScreenMessage } from '@/components/shared';
 import {
   Calendar,
+  Contact,
   Heading,
   ImageGallery,
   Intro,
@@ -81,6 +82,7 @@ function App() {
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
       <Map location={location} />
+      <Contact groom={groom} bride={bride} />
       {/* {JSON.stringify(wedding)} */}
     </div>
   );
