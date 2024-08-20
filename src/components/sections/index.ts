@@ -6,3 +6,4 @@ export { Invitation } from './Invitation';
 export { Calendar } from './Calendar';
 export { Map } from './Map';
 export { Contact } from './Contact';
+export { Share } from './Share';

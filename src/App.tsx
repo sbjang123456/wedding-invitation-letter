@@ -10,6 +10,7 @@ import {
   Intro,
   Invitation,
   Map,
+  Share,
   Video,
 } from '@/components/sections';
 
@@ -83,7 +84,7 @@ function App() {
       <Calendar date={date} />
       <Map location={location} />
       <Contact groom={groom} bride={bride} />
-      {/* {JSON.stringify(wedding)} */}
+      <Share groomName={groom.name} brideName={bride.name} date={date} />
     </div>
   );
 }
